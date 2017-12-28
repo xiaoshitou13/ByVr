@@ -52,6 +52,7 @@ public class VrVideoActivity extends BaseActivity {
 
         mVrvideo.setEventListener(new VrVideoEventListener());
 
+
     }
 
     @Subscribe(threadMode = ThreadMode.MAIN,sticky = true)
